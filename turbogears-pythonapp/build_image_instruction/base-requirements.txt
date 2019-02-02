@@ -1,0 +1,2 @@
+TurboGears2>=2.3.12
+gunicorn>=19,<20
