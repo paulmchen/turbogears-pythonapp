@@ -12,8 +12,3 @@ class MyController(TGController):
 config = AppConfig(minimal=True, root_controller=MyController())
 application = config.make_wsgi_app()
 
-print
-# "Serving on port 8080..."
-# server = make_server('', 8080, application)
-# server.serve_forever()
-
